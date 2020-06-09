@@ -7,3 +7,16 @@ form {
     background-color: beige
 }
 
+[type="text"] {
+    width: 269px;
+    margin-left: 11px;
+    padding: 0px;
+    margin-bottom: 46px;
+    border: none;
+    color: lightgray;
+    line-height: 22px;
+    text-align: left;
+    font-size: 13px;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
