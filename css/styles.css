@@ -4,7 +4,7 @@ body {
 form {
     width: 300px;
     margin: 0 auto;
-    background-color: beige
+    background-color: none;
 }
 
 [type="text"] {
@@ -20,7 +20,7 @@ form {
     border-bottom: 1px solid grey;
     outline: none;
 }
-[type="email"] {
+/*[type="email"] {
     width: 269px;
     margin-left: 11px;
     padding: 0px;
@@ -35,4 +35,27 @@ form {
 }
 [type="email"]:focus {
     border-bottom-color: #AB47BC;
+}
+*/
+.email {
+    position: relative;
+    width: 269px;
+    height: 17px;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, #AB47BC 0%, #7B1FA2 100%);
+}
+[type="email"] {
+    position: absolute;
+    background: white;
+    width: 269px;
+    margin: 0px;
+
+    padding: 0px;
+
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+[type="email"]:focus {
+    border: none;
 }
